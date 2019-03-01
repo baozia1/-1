@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/logs/logs",
+    "pages/news/news",
+    
+    "pages/contact-us/contact-us"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+    "tabBar": {
+      "color": "#a5a5a5",
+      "selectedColor": "#d81e36",
+      "backgroundColor": "#fff",
+      "borderStyle": "white",
+      "position": "bottom",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "大厅",
+          "iconPath": "images/hone.png",
+          "selectedIconPath": "images/home_on.png"
+        },
+        
+        {
+          "pagePath": "pages/contact-us/contact-us",
+          "text": "关于作者",
+          "iconPath": "images/user.png",
+          "selectedIconPath": "images/user_on.png"
+        }
+      ]
+    }
+}

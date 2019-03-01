@@ -1,0 +1,49 @@
+.wx_logo {
+    width: 200rpx;
+    height: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wx_logo image {
+    width: 400rpx;
+    height: 200rpx;
+    margin: 100rpx -100rpx 30rpx;
+}
+
+.wx_logo text {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #333;
+    font-size: 16px;
+}
+
+.kf_dh {
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.lf_dhbox {
+    display: block;
+    width: 100%;
+    color: #333;
+    line-height: 36px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.kf_dh .lf_dhbox:last-child {
+    border-bottom: 0;
+}
+
+.kf_dh .kf_text {
+    float: left;
+}
+
+.kf_dh .kf_dhhm {
+    float: right;
+}/* pages/contact-us/contact-us.wxss */

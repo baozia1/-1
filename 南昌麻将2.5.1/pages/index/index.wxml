@@ -1,0 +1,44 @@
+<view class="showOrHide-2" wx:if="{{data_code}}">
+  <view class='swiper'>
+    <swiper bindtap="onListItemTapp" autoplay="{{autoplay}}"  current='{{curIndex}}' interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{swiper}}">
+        <swiper-item>
+          <image src="{{item}}" class="image9" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+    <image bindtap="onListItemTapp" class="image6" src='{{banner[0]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTapp" class="image1" src='{{banner[1]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTapp" class="image6" src='{{banner[2]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTapp" class="image1" src='{{banner[3]}}'></image>
+  </view>
+</view>
+
+<view class="information-list" wx:else>
+  <view bindtap="todetail" class="listBox" id="{{item.id}}" wx:for="{{result}}" data-title="{{item.title}}">
+   
+        <image class="img_icon" src="{{item.img}}"></image>
+        <view class="list">
+            <view class="title">
+                <text>{{item.title}}</text>
+                <view class="tags">
+                    <view class="label" wx:if="{{item.commend==1}}">荐</view>
+                    <view class="label" wx:if="{{item.good==1}}"> 精 </view>
+                </view>
+            </view>
+            <view class="to_bottom">
+                <text class="little_text_bottom">{{item.text}}</text>
+            </view>
+        </view>
+   
+  </view>
+</view>
+

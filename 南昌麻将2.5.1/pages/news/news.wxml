@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="head_view">
+      <image class="img_icon" src="{{message.img}}"></image>
+      <view class="toright">
+        <view class="title">
+          <text>{{message.title}}</text>
+        </view>
+        <view class="to_bottom">
+          <view class="little_text"></view>
+          <view class="tags">
+            <view class="label" wx:if="{{message.commend == 1}}">荐</view>
+            <view class="label" wx:if="{{message.good == 1}}"> 精 </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  <view role="" aria-label="">
+    <view class="img" data-src="" mode="widthFix" src="" wx:if="{{item.type==1}}"></view>
+    <view class="text" wx:else>{{message.text}}</view>
+  </view>
+</view>
