@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/logs/logs",
+    "pages/rules/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#696969",
+    "navigationBarTitleText": "森林舞会",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "大厅",
+        "iconPath": "images/hone.png",
+        "selectedIconPath": "images/home_on.png"
+      },
+      {
+        "pagePath": "pages/rules/index",
+        "text": "关于作者",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_on.png"
+      }
+    ]
+  }
+}

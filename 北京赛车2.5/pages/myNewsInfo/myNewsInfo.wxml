@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="biaoti">{{title}}</view>
+    <view>
+        <view class="jieshao">
+      介绍:
+    </view>
+        <view class="neirong">
+      {{leirong}}
+    </view>
+    </view>
+    <image src=" {{imgs}}"></image>
+</view>

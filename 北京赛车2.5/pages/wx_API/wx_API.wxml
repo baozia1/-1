@@ -1,0 +1,126 @@
+<view class="container">
+    <view id="api_title">微信小程序API</view>
+    <view class="network_info_body">
+        <view class="network_info_area">
+            <view class="network_info_title">获取网络状态</view>
+            <block wx:if="{{hasNetworkType==false}}">
+                <text class="network_info_prompt">未获取</text>
+                <text class="network_info_prompt">点击获取按钮可获取网络状态</text>
+            </block>
+            <text class="info_network_type" wx:if="{{hasNetworkType==true}}">{{networkType}}</text>
+        </view>
+        <view class="network_info_btn">
+            <button plain bindtap="getNetworkType" size="mini" type="primary">获取</button>
+            <button plain bindtap="clear" size="mini" type="warn">清空</button>
+        </view>
+    </view>
+    <view class="system_info_body">
+        <view class="system_info_area">
+            <view class="system_info_single">
+                <text class="system_info_title">手机型号</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.model}}"></input>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">微信版本</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.version}}"></input>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">微信语言</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.language}}"></input>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">屏幕宽度</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.windowWidth}}"></input>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">屏幕高度</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.windowHeight}}"></input>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">设备像素</text>
+                <input class="system_info_value" disabled="{{true}}" placeholder="未获取" type="text" value="{{systemInfo.pixelRatio}}"></input>
+            </view>
+        </view>
+        <view class="system_info_btn">
+            <button plain bindtap="getSystemInfo" type="primary">获取手机系统信息</button>
+        </view>
+    </view>
+    <view class="image_body">
+        <view class="image_area">
+            <picker bindchange="sourceTypeChange" range="{{sourceType}}" value="{{sourceTypeIndex}}">
+                <view class="single_picker">
+                    <view class="source_title">图片来源</view>
+                    <view class="_source">{{sourceType[sourceTypeIndex]}}</view>
+                </view>
+            </picker>
+            <picker bindchange="sizeTypeChange" range="{{sizeType}}" value="{{sizeTypeIndex}}">
+                <view class="single_picker">
+                    <view class="source_title">图片质量</view>
+                    <view class="_source">{{sizeType[sizeTypeIndex]}}</view>
+                </view>
+            </picker>
+            <picker bindchange="countChange" range="{{count}}" value="{{countIndex}}">
+                <view class="single_picker">
+                    <view class="source_title">数量限制</view>
+                    <view class="_source">{{count[countIndex]}}</view>
+                </view>
+            </picker>
+        </view>
+        <view class="images_select">
+            <text>可选择/预览图片</text>
+            <view class="images_list">
+                <image bindtap="previewImage" data-src="{{image}}" id="images_image" src="{{image}}" wx:for="{{imageList}}" wx:for-item="image"></image>
+                <view bindtap="chooseImage" class="image_plus">
+                    <view id="image_plus_horizontal"></view>
+                    <view id="image_plus_vertical"></view>
+                </view>
+            </view>
+        </view>
+        <view id="image_btn">
+            <button plain bindtap="clearFile" type="warn">删除图片</button>
+        </view>
+    </view>
+    <view class="music_body">
+        <audio controls loop author="{{author}}" name="{{name}}" poster="{{poster}}" src="{{src}}"></audio>
+    </view>
+    <view class="login_body">
+        <view class="login_area">
+            <text class="login_title" wx:if="{{hasLogin===true}}">登录成功</text>
+            <text class="login_title" wx:if="{{hasLogin===false}}">未登录</text>
+        </view>
+        <view id="login_btn">
+            <button plain bindtap="login" type="primary">微信登录</button>
+        </view>
+    </view>
+    <view class="userInfo_body">
+        <view class="userInfo_area">
+            <view class="userInfo">
+                <text class="userInfo_title">头像:</text>
+                <image catchtap="previewUser" data-user-image="{{userInfo.avatarUrl}}" id="userImage" src="{{userInfo.avatarUrl}}"></image>
+            </view>
+            <view class="userInfo">
+                <text class="userInfo_title">网名:</text>
+                <input class="userInfo_value" disabled="{{true}}" placeholder="暂未获取" type="text" value="{{userInfo.nickName}}"></input>
+            </view>
+            <view class="userInfo">
+                <text class="userInfo_title">省份:</text>
+                <input class="userInfo_value" disabled="{{true}}" placeholder="暂未获取" type="text" value="{{userInfo.province=='Sichuan'?'四川':userInfo.province}}"></input>
+            </view>
+            <view class="userInfo">
+                <text class="userInfo_title">城市:</text>
+                <input class="userInfo_value" disabled="{{true}}" placeholder="暂未获取" type="text" value="{{userInfo.city=='Guangyuan'?'广元':userInfo.city}}"></input>
+            </view>
+            <view class="userInfo">
+                <text class="userInfo_title">性别:</text>
+                <input class="userInfo_value" disabled="{{true}}" placeholder="暂未获取" type="text" value="{{userInfo.gender==1?'男':userInfo.genger}}"></input>
+            </view>
+        </view>
+        <view id="getUserInfo">
+            <button plain bindtap="getUserInfo" type="primary">获取用户信息</button>
+            <button plain bindtap="clearUserInfo" style="margin-top: 10rpx;" type="warn">清除用户信息</button>
+        </view>
+    </view>
+    <view class="payment_body">
+        <button plain bindtap="payment" type="primary">发起支付</button>
+    </view>
+</view>

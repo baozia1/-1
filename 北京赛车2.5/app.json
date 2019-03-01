@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/logs/logs",
+        "pages/cars/cars",
+        "pages/car_detail/ao_di/ao_di",
+        "pages/myNewsInfo/myNewsInfo",
+        "pages/car_detail/super_car/super_car",
+        "pages/wx_API/wx_API"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00BFFF",
+        "navigationBarTitleText": "赛车",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#dddddd",
+        "selectedColor": "#00BFFF",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "image/shou_ye.png",
+                "selectedIconPath": "image/shou_ye-select.png"
+            },
+            {
+                "text": "图标",
+                "pagePath": "pages/cars/cars",
+                "iconPath": "image/xuan_che.png",
+                "selectedIconPath": "image/xuan_che-select.png"
+            }
+        ]
+    }
+}

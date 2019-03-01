@@ -1,0 +1,550 @@
+page {
+    background-color: #266d4d;
+    font-family: "微软雅黑";
+}
+
+.imageBack{
+  background-color:#fff;
+}
+
+#selectpage {
+    width: 750rpx;
+    height: 1050rpx;
+    background-color: #266d4d;
+    position: absolute;
+    top: 0rpx;
+    left: 0rpx;
+}
+
+#public-cards {
+    width: 320rpx;
+    height: 96rpx;
+    position: absolute;
+    top: 438rpx;
+    left: 220rpx;
+}
+
+.hpoker {
+    width: 24rpx;
+    height: 18rpx;
+    font-weight: bold;
+    font-size: 30rpx;
+    border: none;
+    position: absolute;
+    top: -5rpx;
+    left: 5rpx;
+}
+
+.lpoker {
+    width: 24rpx;
+    height: 18rpx;
+    font-size: 25rpx;
+    border: none;
+    position: absolute;
+    top: 30rpx;
+    left: 15rpx;
+}
+
+.poker {
+    width: 48rpx;
+    height: 72rpx;
+    background-color: white;
+    font-size: 37rpx;
+    border-radius: 10%;
+    border-width: 1rpx;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+}
+
+.winRate {
+    width: 128rpx;
+    height: 40rpx;
+    text-align: right;
+    position: absolute;
+    font-size: 35rpx;
+    top: 96rpx;
+    left: 0;
+}
+
+.red {
+    color: red;
+}
+
+.player {
+    width: 128rpx;
+    height: 136rpx;
+    position: absolute;
+}
+
+#p1 {
+    top: 30rpx;
+    left: 430rpx;
+}
+
+#p2 {
+    top: 250rpx;
+    left: 600rpx;
+}
+
+#p3 {
+    top: 470rpx;
+    left: 600rpx;
+}
+
+#p4 {
+    top: 690rpx;
+    left: 600rpx;
+}
+
+#p5 {
+    top: 910rpx;
+    left: 315rpx;
+}
+
+#p6 {
+    top: 250rpx;
+    left: 30rpx;
+}
+
+#p7 {
+    top: 470rpx;
+    left: 30rpx;
+}
+
+#p8 {
+    top: 690rpx;
+    left: 30rpx;
+}
+
+#p9 {
+    top: 30rpx;
+    left: 200rpx;
+}
+
+.rightp {
+    left: 64rpx;
+    position: absolute;
+}
+
+#public1 {
+    left: 0;
+}
+
+#public2 {
+    left: 20%;
+}
+
+#public3 {
+    left: 40%;
+}
+
+#public4 {
+    left: 60%;
+}
+
+#public5 {
+    left: 80%;
+}
+
+.container {
+    height: 210rpx;
+    width: 750rpx;
+    left: 0;
+    position: absolute;
+}
+
+#selectorContainer0 {
+    top: 0%;
+}
+
+#selectorContainer1 {
+    top: 20%;
+}
+
+#selectorContainer2 {
+    top: 40%;
+}
+
+#selectorContainer3 {
+    top: 60%;
+}
+
+#selectorContainer4 {
+    top: 80%;
+}
+
+#zhikong {
+    left: 150rpx;
+    top: 60rpx;
+    color: white;
+    padding-top: 6rpx;
+    padding-left: 10rpx;
+    padding-right: 15rpx;
+    font-size: 35rpx;
+    height: 50rpx;
+    border-radius: 25rpx;
+    background-color: #25cb7e;
+    position: absolute;
+}
+
+#fanhui {
+    left: 450rpx;
+    top: 60rpx;
+    color: white;
+    padding-top: 6rpx;
+    padding-left: 10rpx;
+    padding-right: 15rpx;
+    font-size: 35rpx;
+    height: 50rpx;
+    border-radius: 25rpx;
+    background-color: #25cb7e;
+    position: absolute;
+}
+
+.button {
+    color: white;
+    padding-top: 6rpx;
+    padding-left: 10rpx;
+    padding-right: 15rpx;
+    font-size: 35rpx;
+    height: 50rpx;
+    border-radius: 25rpx;
+    background-color: #25cb7e;
+    position: absolute;
+}
+
+#clearAll {
+    top: 598rpx;
+    left: 430rpx;
+}
+
+#calculate {
+    top: 598rpx;
+    left: 240rpx;
+}
+
+#randomcard {
+    top: 700rpx;
+    left: 300rpx;
+}
+
+#billboard {
+    height: 350rpx;
+    width: 450rpx;
+    position: absolute;
+    background-color: royalblue;
+    top: 250rpx;
+    left: 150rpx;
+}
+
+.Card1 {
+    top: 10rpx;
+    left: 10rpx;
+}
+
+.Card2 {
+    top: 10rpx;
+    left: 84rpx;
+}
+
+.Card3 {
+    top: 10rpx;
+    left: 158rpx;
+}
+
+.Card4 {
+    top: 10rpx;
+    left: 232rpx;
+}
+
+.Card5 {
+    top: 10rpx;
+    left: 306rpx;
+}
+
+.Card6 {
+    top: 10rpx;
+    left: 380rpx;
+}
+
+.Card7 {
+    top: 10rpx;
+    left: 454rpx;
+}
+
+.Card8 {
+    top: 10rpx;
+    left: 528rpx;
+}
+
+.Card9 {
+    top: 10rpx;
+    left: 602rpx;
+}
+
+.Card10 {
+    top: 10rpx;
+    left: 676rpx;
+}
+
+.Card11 {
+    top: 114rpx;
+    left: 10rpx;
+}
+
+.Card12 {
+    top: 114rpx;
+    left: 84rpx;
+}
+
+.Card13 {
+    top: 114rpx;
+    left: 158rpx;
+}
+.information-list {
+    padding: 0 30rpx;
+    background: #fff;
+    
+}
+
+.information-list .information-box {
+    display: block;
+    position: relative;
+    padding: 24rpx 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.information-box .information-img {
+    float: left;
+    width: 35%;
+    display: table;
+    text-align: center;
+    background: #f1f1f1;
+    height: 180rpx;
+}
+
+.information-box .information-img image {
+    width: 100%;
+    height: 100%;
+}
+
+.information-box .information-text {
+    float: left;
+    width: 65%;
+    padding-left: 24rpx;
+    box-sizing: border-box;
+}
+
+.information-text .information-text-title {
+    font-size: 32rpx;
+    line-height: 50rpx;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+}
+
+.information-text .information-text-introduction {
+    font-size: 28rpx;
+    color: #666;
+    line-height: 40rpx;
+    margin: 0.35rem 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.information-reading {
+    position: absolute;
+    bottom: 24rpx;
+    color: #999;
+    font-size: 32rpx;
+    display: block;
+    overflow: hidden;
+    width: 63%;
+}
+
+.information-reading-num {
+    float: left;
+}
+
+.information-reading-time {
+    float: right;
+}
+/**index.wxss**/
+
+.swiper {
+  position: relative;
+}
+
+.swiper image {
+  width: 100%;
+}
+
+.swiper .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper .dots .dot {
+  margin: 0 8rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  transition: all 0.6s;
+}
+
+.swiper .dots .dot.active {
+  width: 24rpx;
+  background: red;
+}
+
+.image {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height:550rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  border-width: 4.6875rpx;
+  color: rgb(255, 116, 0);
+  font-size: 37.5rpx;
+  font-weight: bold;
+  height: 44.53125rpx;
+  line-height: 46.875rpx;
+  margin-left: auto;
+  margin-top: 0;
+  opacity: 1;
+  text-align: left;
+  margin-right: auto;
+}
+
+.image3 {
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}
+
+.image4 {
+  margin-bottom: 2.34375rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+}
+
+.image5 {
+  opacity: 1;
+  color: #fff;
+  font-size: 70.3125rpx;
+  margin-left: auto;
+}
+
+.image6 {
+  height: 351.5625rpx;
+  margin-left: page10000;
+  margin-right: auto;
+  margin-top: page10000;
+  opacity: 1;
+}
+
+.image6 {
+  width: 750rpx;
+  height: 161.71875rpx;
+  margin-bottom: auto;
+  margin-right: auto;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.image7 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image8 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 18.75rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image9 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 300rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image10 {
+  margin-bottom: 7.03125rpx;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}

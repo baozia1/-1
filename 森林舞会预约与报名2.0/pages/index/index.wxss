@@ -1,0 +1,210 @@
+page {
+    background-color: #fff;
+    font-family: "微软雅黑";
+}
+
+.swiper {
+  position: relative;
+}
+
+.swiper image {
+  width: 100%;
+}
+
+.swiper .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper .dots .dot {
+  margin: 0 8rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  transition: all 0.6s;
+}
+
+.swiper .dots .dot.active {
+  width: 24rpx;
+  background: red;
+}
+
+.buttonClick{
+  width: 200rpx;
+  background: #4aa362;
+  margin-top: 90rpx;
+  color: #fff;
+}
+
+textarea {
+  width: 700rpx;
+  height: 500rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+}
+ 
+.textarea-bg {
+  background-color: #999;
+  padding: 10rpx;
+  font-size: 32rpx;
+}
+ 
+.title-bg {
+  font-size: 32rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+  color: #4aa362;
+}
+
+.image {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banImage{
+  height: 140rpx;
+  width: 1000rpx;
+  margin-left: -120rpx;
+  margin-right: auto;
+}
+
+.image1 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height:550rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  border-width: 4.6875rpx;
+  color: rgb(255, 116, 0);
+  font-size: 37.5rpx;
+  font-weight: bold;
+  height: 44.53125rpx;
+  line-height: 46.875rpx;
+  margin-left: auto;
+  margin-top: 0;
+  opacity: 1;
+  text-align: left;
+  margin-right: auto;
+}
+
+.image3 {
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}
+
+.image4 {
+  margin-bottom: 2.34375rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+}
+
+.image5 {
+  opacity: 1;
+  color: #fff;
+  font-size: 70.3125rpx;
+  margin-left: auto;
+}
+
+.image6 {
+  height: 351.5625rpx;
+  margin-left: page10000;
+  margin-right: auto;
+  margin-top: page10000;
+  opacity: 1;
+}
+
+.image6 {
+  width: 750rpx;
+  height: 161.71875rpx;
+  margin-bottom: auto;
+  margin-right: auto;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.image7 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image8 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 18.75rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image9 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 300rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image10 {
+  margin-bottom: 7.03125rpx;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}

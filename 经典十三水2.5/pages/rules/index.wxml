@@ -1,0 +1,18 @@
+<view  class="wx_logo" >
+    <image src="/images/swiper_2.png"></image>
+</view>
+<scroll-view scrollY bindscroll="scroll" bindscrolltolower="lower" bindscrolltoupper="upper" class="kf_dh">
+   
+        <view class="lf_dhbox clearfix">
+            <text class="kf_text">如果您有更好的建议欢迎与我们取得联系</text>
+            <text class="kf_dhhm"></text>
+        </view>
+        <view class="lf_dhbox clearfix">
+            <text class="kf_text"></text>
+            <text class="kf_dhhm" bindtap='copyBtn'></text>
+        </view>
+        <view class="lf_dhbox clearfix">
+            <text class="kf_text">thak you</text>
+            <text class="kf_dhhm" bindtap='copyBtng'></text>
+        </view>
+</scroll-view>

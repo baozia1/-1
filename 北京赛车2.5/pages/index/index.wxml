@@ -1,0 +1,51 @@
+<view wx:if="{{!data_code}}">
+  <view class="container">
+    <view class="top_img">
+      <swiper autoplay="true" duration="{{duration}}" indicatorDots="true" interval="{{interval}}">
+        <swiper-item wx:for="{{img_urls}}">
+          <image src="{{item}}" style="width: 100%; height: 100%"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="title">
+      <text id="font">全世界最贵跑车排行榜</text>
+    </view>
+    <view class="news">
+      <view bindtap="readArticle" class="new" data-id="{{item.id}}" data-imgs="{{item.imgs}}" data-leirong="{{item.leirong}}" data-title="{{item.title}}" wx:for="{{list}}">
+        <view class="text">
+          <text>{{item.title}}</text>
+        </view>
+        <view class="pic">
+          <image src="{{item.imgs}}" style="height: 60px; width: 60px"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="imageBack" wx:else>
+  <view class='swiper'>
+    <swiper bindtap="onListItemTap" autoplay="{{autoplay}}"  current='{{curIndex}}' interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{swiper}}">
+        <swiper-item>
+          <image src="{{item}}" class="image9" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image6" src='{{banner[0]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image1" src='{{banner[1]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image6" src='{{banner[2]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image1" src='{{banner[3]}}'></image>
+  </view>
+  <view class="text" bindtap="onListItemTap">
+    <text>{{result.guanwang}}</text>
+  </view>
+</view>

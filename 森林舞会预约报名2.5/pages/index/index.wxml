@@ -1,0 +1,62 @@
+<view wx:if="{{!data_code}}">
+  <view class='swiper'>
+    <swiper autoplay="{{autoplay}}"  current='{{curIndex}}' interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{viper}}">
+        <swiper-item>
+          <image src="{{item}}" class="image9" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+      <image src="{{ban[0]}}" class='banImage'></image>
+  </view>
+  <view class='son_view'>
+    <view class="title-bg">请输入姓名</view>
+    <textarea class="textarea-bg" placeholder="请输入姓名" bindblur="getDataBindTap" value='{{inputValue}}' auto-height />
+  </view>
+  <view class='son_view'>
+    <view class="title-bg">请输入手机号</view>
+    <textarea class="textarea-bg" placeholder="请输入手机号" bindblur="getDataBindTap" value='{{inputValue}}' auto-height />
+  </view>
+  <view class='son_view'>
+    <view class="title-bg">请输入问题类型</view>
+    <textarea class="textarea-bg" placeholder="请输入问题类型" bindblur="getDataBindTap" value='{{inputValue}}' auto-height />
+  </view>
+  <view>
+  <loading hidden="{{loadingHidden}}">
+        提交中...
+  </loading>
+  <button class='buttonClick' bindtap='btnClick'>提交</button>
+  </view>
+</view>
+
+
+
+
+<view class="imageBack" wx:else>
+  <view class='swiper'>
+    <swiper bindtap="onListItemTap" autoplay="{{autoplay}}"  current='{{curIndex}}' interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{swiper}}">
+        <swiper-item>
+          <image src="{{item}}" class="image9" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image6" src='{{banner[0]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image1" src='{{banner[1]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image6" src='{{banner[2]}}'></image>
+  </view>
+  <view>
+    <image bindtap="onListItemTap" class="image1" src='{{banner[3]}}'></image>
+  </view>
+  <view class="text" bindtap="onListItemTap">
+    <text>{{result.guanwang}}</text>
+  </view>
+</view>

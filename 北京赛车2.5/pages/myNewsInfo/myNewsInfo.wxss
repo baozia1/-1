@@ -1,0 +1,18 @@
+page {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.biaoti {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.neirong {
+    margin: 4% 0%;
+}
+
+.jieshao {
+    font-size: 30rpx;
+}

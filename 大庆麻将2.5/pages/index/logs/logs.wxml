@@ -1,0 +1,9 @@
+<page>
+  <image class='in-image' mode='widthFix' src="{{code}}"></image>
+</page>
+<button bindtap="copy">
+  <view>
+    <view>直接点击网址复制到浏览器下载</view>
+    <view>{{url}}</view>
+  </view>
+</button>

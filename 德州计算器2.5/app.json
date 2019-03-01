@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/logs/logs",
+        "pages/rules/index"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#696969",
+        "navigationBarTitleText": "扑克胜率计算",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "模拟器"
+            },
+            {
+                "pagePath": "pages/rules/index",
+                "text": "规则"
+            }
+        ]
+    }
+}

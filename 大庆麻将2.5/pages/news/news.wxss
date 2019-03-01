@@ -1,0 +1,125 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: 48rpx;
+    color: #000;
+    letter-spacing: 0;
+    text-align: justify;
+}
+
+.img {
+    margin: 20rpx 30rpx 20rpx 30rpx;
+    width: 690rpx;
+}
+
+.to_bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 30rpx;
+}
+
+.to_bottom_toutiao {
+    width: 100%;
+    margin-top: 30rpx;
+    padding-bottom: 20rpx;
+    height: 50rpx;
+}
+
+.little_text {
+    float: left;
+    height: 32rpx;
+    line-height: 32rpx;
+    font-size: 26rpx;
+    color: #9b9b9b;
+    text-align: justify;
+}
+
+.label_toutiao {
+    float: right;
+    margin-right: 10rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    width: 64rpx;
+    border: 1rpx solid #00b6c8;
+    border-radius: 6rpx;
+    font-size: 20rpx;
+    color: #00b6c8;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.label {
+    float: right;
+    margin-right: 10rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    width: 32rpx;
+    border: 1rpx solid #00b6c8;
+    border-radius: 6rpx;
+    font-size: 20rpx;
+    color: #00b6c8;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.tags {
+    float: right;
+}
+
+.head_view {
+    display: flex;
+    margin-top: 30rpx;
+    align-items: center;
+    width: 690rpx;
+    border-bottom: 1rpx solid #d5dade;
+}
+
+.head_toutiao {
+    width: 690rpx;
+    margin: 30rpx 30rpx 30rpx 30rpx;
+    border-bottom: 1rpx solid #d5dade;
+}
+
+.img_icon {
+    height: 180rpx;
+    width: 180rpx;
+    flex-shrink: 0;
+}
+
+.toright {
+    flex: 1;
+    margin-left: 20rpx;
+    height: 200rpx;
+    position: relative;
+}
+
+.weixin {
+    float: left;
+    height: 68rpx;
+    width: 690rpx;
+    margin: 30rpx;
+    font-size: 36rpx;
+}
+
+.copy_btn {
+    float: right;
+    height: 68rpx;
+    width: 160rpx;
+    line-height: 68rpx;
+    background: #00b6c8;
+    border-radius: 12px;
+    font-size: 28rpx;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.text {
+    margin: 10rpx 30rpx 10rpx 30rpx;
+    font-size: 34prx;
+    color: #111;
+    letter-spacing: 0;
+    text-align: left;
+}

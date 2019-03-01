@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "大庆麻将",
+  "navigationBarBackgroundColor": "#39393D",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "dark",
+  "disableScroll": false,
+  "enablePullDownRefresh": true
+}
