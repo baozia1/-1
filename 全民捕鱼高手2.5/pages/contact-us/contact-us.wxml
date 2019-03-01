@@ -1,0 +1,15 @@
+<view  class="wx_logo" >
+    <image src=""></image>
+</view>
+<scroll-view scrollY bindscroll="scroll" bindscrolltolower="lower" bindscrolltoupper="upper" class="kf_dh">
+   
+        <view class="lf_dhbox clearfix">
+            <text class="kf_text">thank you</text>
+        
+        </view>
+        <view class="lf_dhbox clearfix">
+            <text class="kf_text">联系qq</text>
+            <text class="kf_dhhm" bindtap='copyBtn'>11878679</text>
+        </view>
+      
+</scroll-view>

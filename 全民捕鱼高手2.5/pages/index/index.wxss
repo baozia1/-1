@@ -1,0 +1,385 @@
+page {
+    height: 100vh;
+    background: #fff!important;
+}
+
+.information-list {
+    padding: 0 30rpx;
+    background: #fff;
+    
+}
+
+.information-list .information-box {
+    display: block;
+    position: relative;
+    padding: 24rpx 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.information-box .information-img {
+    float: left;
+    width: 35%;
+    display: table;
+    text-align: center;
+    background: #f1f1f1;
+    height: 180rpx;
+}
+
+.listBox {
+    display: flex;
+    border-bottom: 1rpx solid #d5dade;
+    align-items: center;
+}
+
+.miniProgram {
+    display: flex;
+    width: 100%;
+}
+
+.img_ad {
+    display: block;
+    width: 100%;
+}
+
+.list_ad {
+    position: absolute;
+    margin: 20rpx;
+    color: #f0eee6;
+    border: 3rpx solid #f0eee6;
+    border-radius: 10rpx;
+    height: 66rpx;
+    line-height: 66rpx;
+    font-size: 32rpx;
+}
+
+.list {
+    flex: 1;
+    height: 190rpx;
+    position: relative;
+}
+
+.img_icon {
+    float: left;
+    margin: 30rpx;
+    height: 150rpx;
+    width: 150rpx;
+}
+
+.title {
+    margin-top: 30rpx;
+    font-size: 32rpx;
+    margin-right: 20rpx;
+}
+
+.text_index {
+    margin-left: 20rpx;
+    color: #f5a623;
+}
+
+.text {
+    margin-left: 20rpx;
+}
+
+.to_bottom {
+    position: absolute;
+    bottom: 30rpx;
+    right: 0;
+    left: 0;
+}
+
+.little_text {
+    float: left;
+    font-size: 24rpx;
+    color: #9b9b9b;
+    text-align: justify;
+}
+
+.little_text_bottom {
+    font-size: 24rpx;
+    color: #9b9b9b;
+    overflow: hidden;
+    width: calc(100% - 80rpx);
+    box-sizing: border-box;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.label {
+    float: right;
+    margin-right: 10rpx;
+    height: 32rpx;
+    line-height: 32rpx;
+    width: 32rpx;
+    border: 1rpx solid #00b6c8;
+    border-radius: 6rpx;
+    font-size: 20rpx;
+    color: #00b6c8;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.tags {
+    float: right;
+}
+
+.kefu_view {
+    position: fixed;
+    z-index: 9999;
+    bottom: 88rpx;
+    right: 20rpx;
+    width: 95rpx;
+    height: 95rpx;
+}
+
+.kefu {
+    width: 100rpx;
+    height: 100rpx;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.kefu_bt {
+    background-color: transparent;
+    width: 100rpx;
+    height: 100rpx;
+    position: relative;
+}
+
+.kefu_bt::after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100rpx;
+    height: 100rpx;
+    border: none;
+}
+
+.information-box .information-img image {
+    width: 100%;
+    height: 100%;
+}
+
+.information-box .information-text {
+    float: left;
+    width: 65%;
+    padding-left: 24rpx;
+    box-sizing: border-box;
+}
+
+.information-text .information-text-title {
+    font-size: 32rpx;
+    line-height: 50rpx;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+}
+
+.information-text .information-text-introduction {
+    font-size: 28rpx;
+    color: #666;
+    line-height: 40rpx;
+    margin: 0.35rem 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.information-reading {
+    position: absolute;
+    bottom: 24rpx;
+    color: #999;
+    font-size: 32rpx;
+    display: block;
+    overflow: hidden;
+    width: 63%;
+}
+
+.information-reading-num {
+    float: left;
+}
+
+.information-reading-time {
+    float: right;
+}
+/**index.wxss**/
+
+.swiper {
+  position: relative;
+}
+
+.swiper image {
+  width: 100%;
+}
+
+.swiper .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper .dots .dot {
+  margin: 0 8rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  transition: all 0.6s;
+}
+
+.swiper .dots .dot.active {
+  width: 24rpx;
+  background: red;
+}
+
+.image {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height:550rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  border-width: 4.6875rpx;
+  color: rgb(255, 116, 0);
+  font-size: 37.5rpx;
+  font-weight: bold;
+  height: 44.53125rpx;
+  line-height: 46.875rpx;
+  margin-left: auto;
+  margin-top: 0;
+  opacity: 1;
+  text-align: left;
+  margin-right: auto;
+}
+
+.image3 {
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}
+
+.image4 {
+  margin-bottom: 2.34375rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+}
+
+.image5 {
+  opacity: 1;
+  color: #fff;
+  font-size: 70.3125rpx;
+  margin-left: auto;
+}
+
+.image6 {
+  height: 351.5625rpx;
+  margin-left: page10000;
+  margin-right: auto;
+  margin-top: page10000;
+  opacity: 1;
+}
+
+.image6 {
+  width: 750rpx;
+  height: 161.71875rpx;
+  margin-bottom: auto;
+  margin-right: auto;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.image7 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 379.6875rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image8 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 140.625rpx;
+  width: 351.5625rpx;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  left: 18.75rpx;
+  top: 9.375rpx;
+  position: absolute;
+  right: auto;
+}
+
+.image9 {
+  opacity: 1;
+  background-color: transparent;
+  border-color: rgb(34, 34, 34);
+  border-style: none;
+  height: 300rpx;
+  width: 750rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image10 {
+  margin-bottom: 7.03125rpx;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+}
